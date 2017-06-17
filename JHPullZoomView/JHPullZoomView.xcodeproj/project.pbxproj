@@ -13,6 +13,8 @@
 		80FE33281EF59361000F7720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FE33261EF59361000F7720 /* Main.storyboard */; };
 		80FE332A1EF59361000F7720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FE33291EF59361000F7720 /* Assets.xcassets */; };
 		80FE332D1EF59361000F7720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FE332B1EF59361000F7720 /* LaunchScreen.storyboard */; };
+		80FE33371EF59428000F7720 /* JHDropHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE33361EF59428000F7720 /* JHDropHeaderView.m */; };
+		80FE333A1EF595EE000F7720 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE33391EF595EE000F7720 /* UIView+Size.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		80FE33291EF59361000F7720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80FE332C1EF59361000F7720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80FE332E1EF59361000F7720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FE33351EF59428000F7720 /* JHDropHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDropHeaderView.h; sourceTree = "<group>"; };
+		80FE33361EF59428000F7720 /* JHDropHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDropHeaderView.m; sourceTree = "<group>"; };
+		80FE33381EF595EE000F7720 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		80FE33391EF595EE000F7720 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 				80FE33211EF59361000F7720 /* AppDelegate.m */,
 				80FE33231EF59361000F7720 /* ViewController.h */,
 				80FE33241EF59361000F7720 /* ViewController.m */,
+				80FE33341EF593EB000F7720 /* JHPullZoomView */,
 				80FE33261EF59361000F7720 /* Main.storyboard */,
 				80FE33291EF59361000F7720 /* Assets.xcassets */,
 				80FE332B1EF59361000F7720 /* LaunchScreen.storyboard */,
@@ -77,6 +84,17 @@
 				80FE331E1EF59361000F7720 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80FE33341EF593EB000F7720 /* JHPullZoomView */ = {
+			isa = PBXGroup;
+			children = (
+				80FE33351EF59428000F7720 /* JHDropHeaderView.h */,
+				80FE33361EF59428000F7720 /* JHDropHeaderView.m */,
+				80FE33381EF595EE000F7720 /* UIView+Size.h */,
+				80FE33391EF595EE000F7720 /* UIView+Size.m */,
+			);
+			path = JHPullZoomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				80FE33251EF59361000F7720 /* ViewController.m in Sources */,
+				80FE333A1EF595EE000F7720 /* UIView+Size.m in Sources */,
+				80FE33371EF59428000F7720 /* JHDropHeaderView.m in Sources */,
 				80FE33221EF59361000F7720 /* AppDelegate.m in Sources */,
 				80FE331F1EF59361000F7720 /* main.m in Sources */,
 			);
